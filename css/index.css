@@ -1,0 +1,70 @@
+@charset "UTF-8";
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url('../img/bg.jpg') no-repeat center/cover;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/*nav部分*/
+.header {
+    height: 100%;
+    width: 80px;
+    /*background: linear-gradient(top, rgb(94, 91, 101), rgb(20, 33, 50) 50%, rgb(0, 0, 0) 100%);
+    background: -o-linear-gradient(top, rgb(94, 91, 101), rgb(20, 33, 50) 50%, rgb(0, 0, 0) 100%);
+    background: -ms-linear-gradient(top, rgb(94, 91, 101), rgb(20, 33, 50) 50%, rgb(0, 0, 0) 100%);
+    background: -moz-linear-gradient(top, rgb(94, 91, 101), rgb(20, 33, 50) 50%, rgb(0, 0, 0) 100%);
+    background: -webkit-linear-gradient(top, rgb(94, 91, 101), rgb(20, 33, 50) 50%, rgb(0, 0, 0) 100%);*/
+    
+    position: fixed;
+}
+/*logo部分*/
+.header .icon {
+    width: 100px;
+    height: 50px;
+    background: url('../img/logo.png') no-repeat center/cover;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+/*导航栏部分*/
+.header .nav {
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    /*margin-top: 200px;*/
+    /*line-height: 80px;*/
+    position: relative;
+    top: 200px;
+    left: 18px;
+}
+.header .nav .a {
+    position: relative;
+}
+.header .nav .menu-a {
+    color: #000;
+}
+.header .nav .menu {
+    font-size: 30px;
+    margin-left: 5px;
+}
+.header .nav .menu-a:hover {
+    color: #fff;
+}
+/*github部分*/
+.githubBox {
+    position: absolute;
+    bottom: 60px;
+}
+.githubBox a .github {
+    position: absolute;
+    font-size: 40px;
+    /*top: 400px;*/
+    left: 23px;
+}
