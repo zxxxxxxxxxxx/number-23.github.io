@@ -63,6 +63,7 @@ a {
     bottom: 60px;
 }
 .githubBox a .github {
+    color: #000;
     position: absolute;
     font-size: 40px;
     /*top: 400px;*/
